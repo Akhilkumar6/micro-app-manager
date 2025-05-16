@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'https://micro-app-manager.onrender.com';
 
 function App() {
   const [apps, setApps] = useState([]);
